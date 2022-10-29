@@ -37,7 +37,7 @@ body {
 .task {
   width: 56%;
   display: inline-block;
-  flex-grow: 1
+  flex-grow: 1;
 }
 
 .task-wrapper {
@@ -133,7 +133,7 @@ li > * {
 
 .task-input {
   width: 226px;
-  display: none
+  display: none;
 }
 
 .delete-img {
@@ -148,7 +148,7 @@ li > * {
 
 /* Completed */
 .completed {
-  text-decoration: line-through
+  text-decoration: line-through;
   color: #888;
 }
 
@@ -156,7 +156,7 @@ li > * {
 
 .edit-mode .task-input {
   display: inline-block;
-  width: 224px
+  width: 224px;
 }
 
 .edit-mode .li-label {
