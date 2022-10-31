@@ -96,6 +96,7 @@ button:hover {
   margin: 0;
   text-transform: uppercase;
 }
+
 .input__text {
   margin: 0;
   font-size: 18px;
@@ -108,6 +109,7 @@ button:hover {
   font-family: Lato, sans-serif;
   color: #888;
 }
+
 .input__text:focus {
   color: #333;
 }
@@ -117,6 +119,7 @@ button:hover {
   display: block;
   margin: 0 0 20px;
 }
+
 #new-task {
   width: 318px;
 }
@@ -149,7 +152,7 @@ button:hover {
 }
 
 /* Completed */
-.completed {
+#completed-tasks label {
   text-decoration: line-through;
   color: #888;
 }
@@ -161,6 +164,6 @@ button:hover {
   width: 224px;
 }
 
-.edit__mode .li__label {
+.edit__mode .task__label {
   display: none;
 }
