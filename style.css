@@ -18,24 +18,24 @@ li > * {
   vertical-align: middle;
 }
 
-.desc {
+.header {
   width: 500px;
   margin: 0 auto;
   display: block;
   text-align: right;
 }
 
-.desc__img {
+.header__img {
   width: 100%;
 }
 
-.more__inf {
+.header__inf {
   font-family: fantasy, cursive;
 }
 
 @media (max-width:768px) {
 
-.desc { 
+.header { 
   text-align: center;
 }
 
