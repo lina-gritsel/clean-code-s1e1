@@ -1,21 +1,8 @@
 /* Basic Style */
-body {
+.body {
   background-color: #f8f8f8;
   color: #333;
   font-family: Lato, sans-serif;
-}
-
-li {
-  overflow: hidden;
-  padding: 20px 0;
-  border-bottom: 1px solid #eee;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-li > * {
-  vertical-align: middle;
 }
 
 .header {
@@ -57,7 +44,7 @@ li > * {
   display: flex;
 }
 
-ul {
+.list {
   margin: 0;
   padding: 0px;
 }
@@ -72,7 +59,20 @@ button{
   outline: none;
 }
 
-button {
+.list__item {
+  overflow: hidden;
+  padding: 20px 0;
+  border-bottom: 1px solid #eee;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.list__item {
+  vertical-align: middle;
+}
+
+.btn {
   background: none;
   border: 0px;
   color: #888;
@@ -82,7 +82,7 @@ button {
   cursor: pointer;
 }
 
-button:hover {
+.btn:hover {
   color: #3a3a3a;
 }
 
@@ -120,7 +120,7 @@ button:hover {
   margin: 0 0 20px;
 }
 
-#new-task {
+.add__new-task {
   width: 318px;
 }
 
@@ -152,7 +152,7 @@ button:hover {
 }
 
 /* Completed */
-#completed-tasks label {
+.completed__task .task__label {
   text-decoration: line-through;
   color: #888;
 }
